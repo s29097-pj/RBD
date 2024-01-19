@@ -27,5 +27,8 @@ Opcja ServerAliveInterval zapobiega zrywaniu połączenia przez router w czasie 
 ### SQL Online
 <https://onecompiler.com/sqlserver>
 
+### Narzędzie pozwalające na projektowanie diagramów ERD
+https://draw.io/
+
 ### Strona poświęcona Relacyjnym Bazom Danych
 <https://mhyla.com/courses/RBD/stacjonarne/>
