@@ -4,7 +4,7 @@
 ### Logowanie do "Szuflandia"
 - `ssh -o ServerAliveInterval=60 sXXXX@szuflandia.pjwstk.edu.pl`
 
-Opcja ServerAliveInterval zapobiega zrywaniu polaczenia przez router w czasie bezczynnosci, wysylajac pakiety przez siec miedzy urzadzeniem a serwerem dolcelowym co 60 sekund. Jest to okreslane jako ruch "podtrzymujacy aktywnosc" (keep alive).
+Opcja ServerAliveInterval zapobiega zrywaniu połączenia przez router w czasie bezczynności, wysyłajac pakiety przez sieć między urządzeniem a serwerem dolcelowym co 60 sekund. Jest to określane jako ruch "podtrzymujacy aktywność" (keep alive).
 
 ### Pobieranie z "Szuflandia" plików
 - `scp sXXXX@szuflandia.pjwstk.edu.pl:~/nazwa_pliku.sql C:\lokalizacja_docelowa`
@@ -26,3 +26,6 @@ Opcja ServerAliveInterval zapobiega zrywaniu polaczenia przez router w czasie be
 
 ### SQL Online
 <https://onecompiler.com/sqlserver>
+
+## Strona poświęcona Relacyjnym Bazom Danych
+<https://mhyla.com/courses/RBD/stacjonarne/>
