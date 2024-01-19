@@ -1,6 +1,6 @@
 # Typy danych w MySQL
 
-## Numeryczne typy danych w MySQL
+## Numeryczne - wartość całkowita
 
 | Nazwa     | Opis                                                                                                                                                                                                                                                                                                       |
 |-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -10,6 +10,8 @@
 | INT       | 4-bajtowa wartość całkowita. Zakres wartości ze znakiem od -2 147 483 648 do 2 147 483 647 lub bez znaku od 0 do 4 294 967 295                                                                                                                |
 | BIGINT    | 8-bajtowa wartość całkowita. Typ BIGINT jest używany podczas przeprowadzania obliczeń. Stosując pola tego typu we własnej bazie danych należy uważać, aby ich wartości nie były zbyt duże, ponieważ użyte w obliczeniach mogą doprowadzić do błędu przepełnienia |
 
+## Numeryczne - liczba zmiennoprzecinkowa
+
 | Nazwa           | Opis                                                                                                                                                                                               |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FLOAT(dokładność) | Liczba zmiennoprzecinkowa z precyzją wyrażaną liczbą bajtów. Dwie wartości akceptowane jako precyzja to 4 i 8. Szczegóły dotyczące tych dwóch typów danych opisują pola FLOAT i DOUBLE                 |
@@ -17,7 +19,7 @@
 | DOUBLE          | 8-bajtowa liczba zmiennoprzecinkowa przechowująca wartości z zakresu od -1.7976931348623157E+308 do -2.2250738585072014E-308, 0, i 2.2250738585072014E-308 do 1.7976931348623157E+308             |
 | DECIMAL         | Pole zmiennoprzecinkowe o takiej samej pojemności jak DOUBLE. Liczba, zamiast zostać zredukowana do postaci szesnastkowej, pamiętana jest w formacie znakowym                                  |
 
-## Typy danych w MySQL: daty i czasy
+## Data i czas
 
 | Nazwa     | Opis                                                                                                                                                                                                   |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -27,7 +29,7 @@
 | TIME      | Czas mieszczący się w przedziale od -838:59:59 do 838:59:59                                                                                                                                          |
 | YEAR      | Rok. Dozwolone wartości to przedział od 1901 do 2155 oraz wartość 0000. MySQL wyświetla wartość typu YEAR w formacie RRRR                                                                                   |
 
-## Tekstowe i znakowe typy danych w MySQL
+## Tekstowe i znakowe
 
 | Nazwa       | Opis                                                                                                                                                                                                |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
