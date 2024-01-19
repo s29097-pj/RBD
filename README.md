@@ -21,14 +21,12 @@ Opcja ServerAliveInterval zapobiega zrywaniu połączenia przez router w czasie 
 ### Import danych
 - `mysql -u sXXXX -p < DBdump_sXXXX.sql`
 
-### RBD pojęcia
-<http://www.informatyka.orawskie.pl/?pl_sbd,22>
-
 ### SQL Online
 <https://onecompiler.com/sqlserver>
 
 ### Narzędzie pozwalające na projektowanie diagramów ERD
 https://draw.io/
 
-### Strona poświęcona Relacyjnym Bazom Danych
+### Strony poświęcone Relacyjnym Bazom Danych
 <https://mhyla.com/courses/RBD/stacjonarne/>
+<http://www.informatyka.orawskie.pl/?pl_sbd,22>
