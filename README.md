@@ -27,5 +27,5 @@ Opcja ServerAliveInterval zapobiega zrywaniu połączenia przez router w czasie 
 ### SQL Online
 <https://onecompiler.com/sqlserver>
 
-## Strona poświęcona Relacyjnym Bazom Danych
+### Strona poświęcona Relacyjnym Bazom Danych
 <https://mhyla.com/courses/RBD/stacjonarne/>
