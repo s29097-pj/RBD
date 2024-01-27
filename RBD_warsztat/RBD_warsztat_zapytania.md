@@ -33,7 +33,7 @@ W tym zapytaniu używam funkcji **COUNT(*)**, aby zliczyć wszystkie rekordy w t
 ### 4. Zapytanie zwracające datę produkcji najmłodszego samochodu.
 
 ```sql
-SELECT MIN(data_prod) AS najmlodsza_data_prod
+SELECT MAX(data_prod) AS najmlodsza_data_prod
 FROM samochod;
 ```
 
